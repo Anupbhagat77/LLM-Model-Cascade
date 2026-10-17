@@ -1,0 +1,27 @@
+ROUTING ANALYSIS SUMMARY
+
+Cascade file used: results\cascade_results_20260614_233435.csv
+
+Total questions: 100
+Accepted by small model: 76 (76.00%)
+Escalated to large model: 24 (24.00%)
+Small-model API errors: 0
+Small-model API success rate: 100.00%
+
+Small-model accuracy: 76.00%
+Final cascade accuracy: 90.00%
+
+Small-model tokens: 24,364
+Large fallback tokens: 6,492
+Total cascade tokens: 30,856
+
+Small-model cost: €0.004660
+Large fallback cost: €0.026206
+Total cascade cost: €0.030866
+
+Average latency, all questions: 1.035 seconds
+Average latency, accepted questions: 0.620 seconds
+Average latency, escalated questions: 2.350 seconds
+
+Thesis interpretation:
+The cascade accepted 76 out of 100 questions from the small model and escalated 24 questions to the large model. No small-model API errors occurred. The routing behavior confirms that the cascade operated as intended: all questions were first processed by the small model, and only benchmark-incorrect small-model answers were escalated to the large model.

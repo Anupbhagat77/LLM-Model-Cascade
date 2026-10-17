@@ -1,0 +1,3 @@
+benchmark,baseline_accuracy,cascade_accuracy,quality_retention
+gsm8k,0.82,0.9,1.0975609756097562
+mmlu,0.88,0.9,1.0227272727272727
